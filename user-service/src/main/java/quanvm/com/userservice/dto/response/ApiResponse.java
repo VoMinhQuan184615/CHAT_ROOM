@@ -1,4 +1,4 @@
-package quanvm.com.userservice.dto.reponse;
+package quanvm.com.userservice.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

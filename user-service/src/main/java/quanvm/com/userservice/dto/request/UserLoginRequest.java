@@ -1,20 +1,13 @@
 package quanvm.com.userservice.dto.request;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-
-import java.time.Instant;
-
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class UsersRegisterRequest {
+public class UserLoginRequest {
     private String username;
-    private String email;
     private String password;
-    private String fullName;
-    private Instant createdAt;
 }
